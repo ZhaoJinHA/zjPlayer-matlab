@@ -20,6 +20,7 @@ The function structure is learned from Mingjing Zhang' matlab Mario Game
 
 ## addition
 a python version is under construction:  
+https://github.com/ZhaoJinHA/zjPlayer-python
 
 
 
