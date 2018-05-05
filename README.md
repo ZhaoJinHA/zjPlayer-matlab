@@ -1,5 +1,5 @@
 # zjPlayer-matlab
-Display images like a video player.  You can pause or continue it anytime, use a roll bar to jump to any frame you want. 
+A very simple script to display images like a video player.  You can pause or continue it anytime, use a roll bar to jump to any frame you want. 
 
 ## usage
 If you want to dispaly a severa pics in a directory _dir_,just change captureDir to _dir_ like:  
@@ -13,6 +13,10 @@ Press [uparrow] to add frame by 1
 Press [downarow] to minus frame by 1  
 Press [space] to pause or continue zjPlayer  
 Drag the scroll bar in bottom to jump to any frame you want  
+
+## thanks
+Inspired by JF Henriques' programme
+The function structure is learned from Mingjing Zhang' matlab Mario Game
 
 
 
