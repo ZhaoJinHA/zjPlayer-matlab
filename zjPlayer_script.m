@@ -1,12 +1,7 @@
-% clear;clc;close all
+
 function zjPlayer_script
-% close all;clear;clc
-% captureDir = 'Y:\DoctorProject\2_Shan_framework\data\video_capture_resized\BM18';
-% captureDir = 'D:\Experiment_data\北盘江\汇总\索\01#_8k照片';
-% captureDir = 'D:\Experiment_data\北盘江\汇总\索\01#_4k视频\连续截图';
-% captureDir = 'D:\Experiment_data\北盘江\汇总\索\11-15#_8k照片';
-captureDir = 'D:\Experiment_data\2017-11-6Tongji\tongjidata\4-现场照片\1106\初始裂缝';
-frameRate = .01;
+captureDir = 'D:\Experiment_data\'; % change to the target dir
+frameRate = 25; % chang to any value you like.
 
 fH = figure('name','zjPlayer1.0','NumberTitle','off','KeyPressFcn', @keypressfcn1,'Interruptible','off','color','k', ...
     'BusyAction','cancel','Resize','on','Units', 'Norm',...
